@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>Bon Crowder Homework 1 Recommended
     </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
   </header>
 
   <body>
-    <header>
+    <div class="navHeader">
       <!-- logo would go here, but for now, just name in teal -->
       <div class="nameLogo">
         Bon Crowder
@@ -17,27 +18,33 @@
         <a href="PORTFOLIO">Portfolio</a>
         <a href="CONTACT">Contact</a>
       </nav>
-    </header>
+    </div>
+
+    <aside class="widget">
+      <h2>Connect with Me</h2>
+      <hr>
+      <img src="assets/images/1488835852_github_square_black.png" class="socialIcons" alt="Bon on GitHub">
+      <img src="assets/images/1488835880_linkedin_square_color.png" class="socialIcons" alt="Bon on LinkedIn">
+      <img src="assets/images/1488835897_stackoverflow.png" class="socialIcons" alt="Bon on StackOverflow">
+    </aside>
 
     <section class="about">
       <h1>Contact</h1>
       <hr>
       <form class="contactForm" action="index.html" method="post">
-        <input type="text" name="firstName" value="Huckleberry Finn">
-        <input type="text" name="eMail" value="huck@twain.com">
-        <input type="text" name="message" value="">
+        Name
+        <input type="text" name="firstName" placeholder="Huckleberry Finn">
+        Email
+        <input type="text" name="eMail" placeholder="huck@twain.com">
+        Message<br>
+        <textarea name="messageArea" rows="8" cols="80"></textarea><br>
+        <!-- <input class="message" type="text" name="message" value=""> -->
         <button type="submitButton" name="submit">Submit</button>
       </form>
 
     </section>
 
-    <aside class="widget">
-      <h2>Connect with Me</h2>
-      <hr>
-      <img src="assets/images/1488835852_github_square_black.png" alt="Bon on GitHub">
-      <img src="assets/images/1488835880_linkedin_square_color.png" alt="Bon on LinkedIn">
-      <img src="assets/images/1488835897_stackoverflow.png" alt="Bon on StackOverflow">
-    </aside>
+
 
     <footer>
       &#174; Copyright 2017 Bon Crowder

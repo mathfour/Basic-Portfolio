@@ -51,19 +51,14 @@ nav a {
 }
 /*Here is the beginning of the css for the pages*/
 section {
-  background-color: LightBlue;
-  /*background-color: none;*/
+  /*background-color: LightBlue;*/
+  background-color: white;
   border: 10px solid orange;
-  /*border: 1px solid black;*/
   margin: 30px 40% 20px 10%;
   padding: 0 20px 20px 20px;
   line-height: 200%;
-  /*float: left;*/
   overflow: auto;
-  /*width: 500px;*/
-  /*clear: left;*/
 }
-
 h1 {
   background-color: LightCoral;
   color: #4FA9A4;
@@ -71,7 +66,6 @@ h1 {
   font-size: 30px;
   font-weight: bold;
 }
-
 h2 {
   background-color: PaleVioletRed;
   color: #4FA9A4;
@@ -79,16 +73,11 @@ h2 {
   font-size: 24px;
   font-weight: bold;
 }
-
 main {
   background-color: LightCyan;
-  /*background-color: none;*/
-  /*width: 300px;*/
   padding: 20px;
-  /*overflow: auto;*/
   font-family: sans-serif;
 }
-
 img {
   background-color: LightSalmon;
   height: 150px;
@@ -96,33 +85,21 @@ img {
   /*clear: both;*/
   padding-right: 20px;
 }
-
 aside.widget {
   background-color: lightgreen;
   float: right;
-  /*clear: left;*/
-  /*width: 200px;*/
-  /*float: left;*/
-  /*position: relative;*/
-  /*position: fixed;*/
-  /*position: static;*/
-  /*width: auto;*/
   font-family: sans-serif;
   border: 10px solid orange;
-  /*border: 1px solid black;*/
   margin: 30px 10% 0 10%;
   padding: 0 20px 20px 20px;
   line-height: 200%;
-  /*float: left;*/
   overflow: auto;
 }
-
 .socialIcons {
   background-color: LightSkyBlue;
   height: 50px;
   padding: 5px;
 }
-
 footer {
   background-color: LightSeaGreen;
   padding: 40px;
@@ -134,6 +111,43 @@ footer {
   position: absolute;
   bottom: 0px;
 }
+
+input{
+  width: 100%;
+  /*opacity: 0.25;*/
+  color: #777777;
+  /*opacity: 0.25;*/
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #777777;
+  /*border-radius: 4px;*/
+}
+
+input {
+  width: 100%;
+  /*opacity: 0.25;*/
+  color: #777777;
+  /*opacity: 0.25;*/
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #777777;
+  /*border-radius: 4px;*/
+}
+
+form {
+  color: #777777;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+
+
+
+
 
 /** {
   font-family: serif;
