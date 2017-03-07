@@ -1,6 +1,135 @@
+LightSteelBlue
+Linen
+PaleTurquoise
 
 
-- Teal color (used for headings and backgrounds):  #4aaaa5
+
+* {
+  color: #777777;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.clear {
+  clear: both;
+}
+body {
+  background-color: khaki;
+  /*padding: 20px;*/
+  display: inline;
+  margin: 0;
+}
+.navHeader {
+  /*background-color: red;*/
+  background-color: Lavender;
+  padding: 20px 0 20px 0;
+  margin: 0;
+  position: relative;
+  border-bottom: 1px solid;
+  /*box-shadow: 0px 1px 5px #888888;*/
+}
+.nameLogo {
+  background-color: LawnGreen;
+  padding: 25px 25px 20px 25px;
+  color: white;
+  font-family: serif;
+  font-size: 30px;
+  margin: 0 0 0 10%;
+  font-weight: bold;
+  position: relative;
+  display: inline;
+}
+nav {
+  background-color: LemonChiffon;
+  float: right;
+  padding: 10px;
+  margin: 0 10% 0 0;
+  font-family: sans-serif;
+}
+nav a {
+  background-color: pink;
+  text-decoration: none;
+}
+/*Here is the beginning of the css for the pages*/
+section {
+  background-color: LightBlue;
+  /*background-color: none;*/
+  border: 10px solid orange;
+  /*border: 1px solid black;*/
+  margin: 30px 40% 0 10%;
+  padding: 0 20px 20px 20px;
+  line-height: 200%;
+  /*float: left;*/
+  overflow: auto;
+  /*width: 500px;*/
+  /*clear: left;*/
+}
+
+h1 {
+  background-color: LightCoral;
+  color: #4FA9A4;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  background-color: PaleVioletRed;
+  color: #4FA9A4;
+  font-family: serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  background-color: LightCyan;
+  /*background-color: none;*/
+  /*width: 300px;*/
+  padding: 20px;
+  /*overflow: auto;*/
+}
+
+img {
+  background-color: LightSalmon;
+  height: 150px;
+  float: left;
+  /*clear: both;*/
+  padding-right: 20px;
+}
+
+aside.widget {
+  background-color: lightgreen;
+  float: right;
+  /*clear: left;*/
+  /*width: 200px;*/
+  /*float: left;*/
+  /*position: relative;*/
+  /*position: fixed;*/
+  /*position: static;*/
+  /*width: auto;*/
+  border: 10px solid orange;
+  /*border: 1px solid black;*/
+  margin: 30px 10% 0 10%;
+  padding: 0 20px 20px 20px;
+  line-height: 200%;
+  /*float: left;*/
+  overflow: auto;
+}
+
+.socialIcons {
+  background-color: LightSkyBlue;
+  height: 50px;
+  padding: 5px;
+}
+
+footer {
+  background-color: LightSeaGreen;
+}
+
+/** {
+  font-family: serif;
+}*/
+
+/*- Teal color (used for headings and backgrounds):  #4aaaa5
 - Regular font color (used for paragraphs and all text besides the headings):  #777777
 - Main header background color:  #ffffff
 - Main header border color:  #cccccc
@@ -15,4 +144,16 @@
 - The entire content area is  960px  wide.
 - The main section content is  650px  wide.
 - The sidebar is  270px  wide.
-- Pro-tip: Use the Page Ruler extension to measure the size of elements.
+- Pro-tip: Use the Page Ruler extension to measure the size of elements.*/
+
+/*.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+/*}*/
+
+/*h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}*/
