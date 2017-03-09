@@ -1,22 +1,17 @@
-
-Linen
-PaleTurquoise
-
-
-
 * {
   color: #777777;
-  font-family: sans-serif;
   font-size: 16px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
-.clear {
+/*.clear {
   clear: both;
-}
+}*/
 body {
   background-color: khaki;
   /*padding: 20px;*/
   display: inline;
   margin: 0;
+  width: 960px;
 }
 .navHeader {
   /*background-color: red;*/
@@ -51,8 +46,10 @@ nav a {
 }
 /*Here is the beginning of the css for the pages*/
 section {
-  /*background-color: LightBlue;*/
-  background-color: white;
+  background-color: LightBlue;
+  width: 650px;
+  /*opacity: .75;*/
+  /*background-color: white;*/
   border: 10px solid orange;
   margin: 30px 40% 20px 10%;
   padding: 0 20px 20px 20px;
@@ -61,6 +58,7 @@ section {
 }
 h1 {
   background-color: LightCoral;
+  font-family: "Georgia", Times, Times New Roman, serif;
   color: #4FA9A4;
   font-family: serif;
   font-size: 30px;
@@ -68,25 +66,21 @@ h1 {
 }
 h2 {
   background-color: PaleVioletRed;
+  font-family: "Georgia", Times, Times New Roman, serif;
   color: #4FA9A4;
   font-family: serif;
   font-size: 24px;
   font-weight: bold;
 }
-main {
-  background-color: LightCyan;
-  padding: 20px;
-  font-family: sans-serif;
-}
 img {
   background-color: LightSalmon;
   height: 150px;
-  float: left;
-  /*clear: both;*/
+  /*float: left;*/
   padding-right: 20px;
 }
 aside.widget {
   background-color: lightgreen;
+  width: 270px;
   float: right;
   font-family: sans-serif;
   border: 10px solid orange;
@@ -109,9 +103,8 @@ footer {
   color: #777777;
   border-top: 4px solid LightSteelBlue;
   position: absolute;
-  bottom: 0px;
+  /*bottom: 0px;*/
 }
-
 input{
   width: 100%;
   /*opacity: 0.25;*/
@@ -124,60 +117,49 @@ input{
   border: 1px solid #777777;
   /*border-radius: 4px;*/
 }
-
-input {
-  width: 100%;
-  /*opacity: 0.25;*/
-  color: #777777;
-  /*opacity: 0.25;*/
-  font-size: 16px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 1px solid #777777;
-  /*border-radius: 4px;*/
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
 }
-
-form {
-  color: #777777;
-  font-size: 16px;
-  font-family: sans-serif;
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-
-
-
-
-
-
-/** {
-  font-family: serif;
-}*/
-
-/*- Teal color (used for headings and backgrounds):  #4aaaa5
-- Regular font color (used for paragraphs and all text besides the headings):  #777777
-- Main header background color:  #ffffff
-- Main header border color:  #cccccc
-- Footer background color:  #666666
-- Main content background color:  #ffffff
-- Main content border color:  #dddddd
-
-
-- For heading fonts use  font-family: 'Georgia', Times, Times New Roman, serif; .
-- For all other fonts use  'Arial', 'Helvetica Neue', Helvetica, sans-serif; .
-
-- The entire content area is  960px  wide.
-- The main section content is  650px  wide.
-- The sidebar is  270px  wide.
-- Pro-tip: Use the Page Ruler extension to measure the size of elements.*/
-
-/*.image {
-   position: relative;
-   width: 100%; /* for IE 6 */
-/*}*/
-
-/*h2 {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
-}*/
+.portfolioImage {
+  border: solid;
+  margin: 20px;
+  width: 225px;
+  height: 225px;
+  float: left;
+}
+h3 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  width: 225px;
+  text-align: center;
+  margin: 160px 0 0 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4aaaa5;
+  position: absolute;
+  z-index: 2;
+  float: left;
+  clear: both;
+}
+img.other {
+  background-color: pink;
+  height: 225px;
+  z-index: 1;
+  /*float: left;*/
+  position: absolute;
+  /*clear: both;*/
+  padding: 0;
+}

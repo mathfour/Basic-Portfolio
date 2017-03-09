@@ -1,0 +1,62 @@
+body {
+  /*background-color: pink;*/
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
+  display: inline;
+}
+
+.navHeader {
+  /*background-color: orange;*/
+  color: white;
+  /*height: 50px;*/
+  overflow: auto;
+  position:relative;
+  border-bottom: 1px solid #777777;
+}
+
+.navContainer {
+  /*background-color: red;*/
+  margin: 0 auto;
+  width: 960px;
+  overflow: auto;
+}
+
+h1, h2, h3 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+h1.nameLogo {
+  background-color: 4aaaa5;
+  padding: 20px;
+  margin: 20px 20px 0 0;
+  float: left;
+}
+
+nav {
+  color: black;
+  float: right;
+  margin: 40px 0 0 0
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  background-color: lightgreen;
+  width: 650px;
+  float: left;
+  clear: both;
+}
+
+.widget {
+  background-color: linen;
+  width: 270px;
+  float: right;
+  /*clear: both;*/
+}
+
+footer {
+  clear: both;
+}
